@@ -311,7 +311,7 @@ header.scrolled .menu-btn { color: var(--ink); }
 .bento-card p { font-size: 14.5px; }
 
 /* ---- Ecosystem hub-and-spoke diagram (EcoDiagram.tsx) ---- */
-.eco-hub { position: relative; width: 100%; max-width: 1040px; margin: 8px auto 0; aspect-ratio: 1000 / 560; }
+.eco-hub { position: relative; width: 100%; max-width: 1040px; margin: 8px auto 0; aspect-ratio: 1000 / 640; }
 .eco-links { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; z-index: 0; }
 .eco-links path {
   fill: none; stroke-width: 2.5; vector-effect: non-scaling-stroke; opacity: .5;
@@ -361,16 +361,18 @@ header.scrolled .menu-btn { color: var(--ink); }
 .eco-lane.tech { background: #e6e8ff; color: #4338ca; }
 .eco-lane.own  { background: #fdedcb; color: #b45309; }
 
-/* positions (percent of the .eco-hub box) — owners up top, hub in the middle */
-.p-hub { left: 50%; top: 56%; }
-.p-own { left: 50%; top: 15%; }
-.p-book { left: 15.5%; top: 35%; }
-.p-kiosk { left: 15.5%; top: 80%; }
-.p-techapp { left: 84.5%; top: 35%; }
-.p-portal { left: 84.5%; top: 80%; }
-.p-own-lane { left: 50%; top: 3%; }
-.p-cust-lane { left: 15.5%; top: 19%; }
-.p-tech-lane { left: 84.5%; top: 19%; }
+/* positions (percent of the .eco-hub box) — owners up top, 3 spokes per side */
+.p-hub { left: 50%; top: 54%; }
+.p-own { left: 50%; top: 12%; }
+.p-book { left: 15.5%; top: 30%; }
+.p-kiosk { left: 15.5%; top: 56%; }
+.p-loyalty { left: 15.5%; top: 82%; }
+.p-techapp { left: 84.5%; top: 30%; }
+.p-turn { left: 84.5%; top: 56%; }
+.p-portal { left: 84.5%; top: 82%; }
+.p-own-lane { left: 50%; top: 2%; }
+.p-cust-lane { left: 15.5%; top: 17%; }
+.p-tech-lane { left: 84.5%; top: 17%; }
 
 /* stacked, labelled groups on smaller screens */
 @media (max-width: 900px) {
