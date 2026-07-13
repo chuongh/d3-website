@@ -5,20 +5,12 @@ import { JsonLd } from "@/components/JsonLd";
 import { DemoForm } from "@/components/DemoForm";
 import { Faq } from "@/components/Faq";
 import { HeroCtas } from "@/components/Bits";
+import { EcoDiagram } from "@/components/EcoDiagram";
 import { siteConfig } from "@/site.config";
 import { localePath, type Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { images } from "@/lib/images";
 import { organizationSchema, softwareApplicationSchema } from "@/lib/schema";
-
-const ECOSYSTEM: { key: keyof Dict["home"]["ecosystem"]["cards"]; icon: IconName; feature?: boolean }[] = [
-  { key: "pos", icon: "pos", feature: true },
-  { key: "booking", icon: "cal" },
-  { key: "owner", icon: "chart" },
-  { key: "tech", icon: "user" },
-  { key: "kiosk", icon: "kiosk" },
-  { key: "portal", icon: "money" },
-];
 
 type Dict = ReturnType<typeof getDictionary>;
 
@@ -54,23 +46,15 @@ export function HomePage({ locale }: { locale: Locale }) {
           </div>
           <div className="hero-stage">
             <div className="halo" aria-hidden="true" />
-            <div className="app-frame">
+            <div className="app-frame scene">
               <Image
                 src={images.heroDashboard.src}
                 width={images.heroDashboard.w}
                 height={images.heroDashboard.h}
-                alt="D3 Salon POS register screen with technician list, live ticket and turn tracking"
+                alt="D3 Salon POS running on a touchscreen register at a nail salon front desk, with a card terminal and receipt printer"
                 priority
-                sizes="(max-width: 980px) 90vw, 520px"
+                sizes="(max-width: 980px) 92vw, 640px"
               />
-            </div>
-            <div className="float-card one">
-              <Icon name="kiosk" />
-              <div>New check-in<small>Lux Nail Bar · just now</small></div>
-            </div>
-            <div className="float-card two">
-              <Icon name="money" />
-              <div>Payroll ready<small>Daily snapshot · end of day</small></div>
             </div>
           </div>
         </div>
@@ -96,18 +80,7 @@ export function HomePage({ locale }: { locale: Locale }) {
             <h2>{t.ecosystem.h2}</h2>
             <p>{t.ecosystem.lead}</p>
           </div>
-          <div className="bento">
-            {ECOSYSTEM.map(({ key, icon, feature }) => {
-              const card = t.ecosystem.cards[key];
-              return (
-                <div key={key} className={`bento-card${feature ? " feature sheen sheen-soft" : ""}`}>
-                  <div className="bento-icon"><Icon name={icon} /></div>
-                  <h3>{card.name}</h3>
-                  <p>{card.desc}</p>
-                </div>
-              );
-            })}
-          </div>
+          <EcoDiagram locale={locale} />
         </div>
       </section>
 

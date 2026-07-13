@@ -203,7 +203,7 @@ header.scrolled .menu-btn { color: var(--ink); }
   -webkit-mask-image: radial-gradient(circle at 60% 30%, #000, transparent 75%);
   mask-image: radial-gradient(circle at 60% 30%, #000, transparent 75%);
 }
-.hero-grid { position: relative; z-index: 3; display: grid; grid-template-columns: 1.05fr .95fr; gap: 60px; align-items: center; }
+.hero-grid { position: relative; z-index: 3; display: grid; grid-template-columns: .88fr 1.12fr; gap: 52px; align-items: center; }
 .badge-pill {
   display: inline-flex; align-items: center; gap: 9px;
   background: rgba(255, 255, 255, .14); border: 1px solid rgba(255, 255, 255, .3);
@@ -237,7 +237,19 @@ header.scrolled .menu-btn { color: var(--ink); }
   transition: transform .5s cubic-bezier(.22, 1, .36, 1);
 }
 .hero-stage:hover .app-frame { transform: rotateY(0) rotateX(0); }
+.hero-stage:hover .app-frame.scene { transform: rotateY(0) rotateX(0) scale(1.04); }
 .app-frame img { width: 100%; display: block; border-radius: 12px; }
+/* Homepage hero holds a self-contained product-scene PHOTO (salon + monitor +
+   terminal + printer). Drop the white device-card look, go edge-to-edge with a
+   thin ring + soft glow, a gentler tilt, and a bit bigger for grandeur. */
+.app-frame.scene {
+  padding: 0; background: none;
+  border: 1px solid rgba(255, 255, 255, .28);
+  border-radius: 22px;
+  box-shadow: var(--shadow-lg), 0 0 90px rgba(142, 155, 255, .55);
+  transform: rotateY(-4deg) rotateX(1.5deg) scale(1.04);
+}
+.app-frame.scene img { border-radius: 21px; }
 /* shine sweep across the frame every 6s */
 .app-frame::after {
   content: ""; position: absolute; top: 0; left: -60%; width: 50%; height: 100%; z-index: 3;
@@ -297,6 +309,78 @@ header.scrolled .menu-btn { color: var(--ink); }
 .bento-card.feature .bento-icon { background: rgba(255, 255, 255, .18); color: #fff; border: 1px solid rgba(255, 255, 255, .25); backdrop-filter: blur(6px); }
 .bento-card h3 { font-size: 18px; margin-bottom: 8px; }
 .bento-card p { font-size: 14.5px; }
+
+/* ---- Ecosystem hub-and-spoke diagram (EcoDiagram.tsx) ---- */
+.eco-hub { position: relative; width: 100%; max-width: 1040px; margin: 8px auto 0; aspect-ratio: 1000 / 560; }
+.eco-links { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; z-index: 0; }
+.eco-links path {
+  fill: none; stroke-width: 2.5; vector-effect: non-scaling-stroke; opacity: .5;
+  stroke-linecap: round; stroke-dasharray: 4 9;
+}
+.eco-links .flow { animation: eco-flow 1.3s linear infinite; }
+@keyframes eco-flow { to { stroke-dashoffset: -26; } }
+
+.eco-node {
+  position: absolute; transform: translate(-50%, -50%); z-index: 2;
+  width: 190px; display: flex; align-items: center; gap: 12px;
+  background: #fff; border: 1px solid var(--border); border-radius: 16px;
+  padding: 13px 15px; box-shadow: var(--shadow-sm);
+  transition: transform .25s var(--ease-out), box-shadow .25s;
+}
+.eco-node:hover { box-shadow: var(--shadow-md); }
+.eco-node .ico-wrap { width: 40px; height: 40px; border-radius: 11px; display: grid; place-items: center; flex: none; }
+.eco-node .ico-wrap .ic { width: 21px; height: 21px; }
+.eco-node .eco-txt b { font-family: var(--font-display); font-weight: 700; font-size: 15px; color: var(--ink); line-height: 1.2; display: block; }
+.eco-node .eco-txt small { display: block; font-size: 12px; color: var(--muted); margin-top: 2px; line-height: 1.3; }
+
+/* hub = the POS core (larger, carries the D3 logo) */
+.eco-node.hub {
+  width: 264px; padding: 20px 22px; border: none; color: #fff; gap: 14px;
+  background: linear-gradient(160deg, #5A68FF, var(--indigo-dark));
+  box-shadow: var(--shadow-md), 0 0 72px rgba(72, 88, 248, .5);
+}
+.eco-node.hub .eco-txt b { color: #fff; font-size: 18px; }
+.eco-node.hub .eco-txt small { color: rgba(255, 255, 255, .82); }
+.eco-node.hub .ico-wrap { width: 54px; height: 54px; background: rgba(255, 255, 255, .18); color: #fff; }
+.eco-node.hub .ico-wrap.logo { background: #fff; padding: 7px; }
+.eco-node.hub .ico-wrap.logo img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.eco-node.hub:hover { transform: translate(-50%, -50%) scale(1.03); }
+
+/* group tints */
+.eco-node.cust .ico-wrap { background: #d6f5ef; color: #0d9488; }
+.eco-node.tech .ico-wrap { background: #e6e8ff; color: #4f46e5; }
+.eco-node.own  .ico-wrap { background: #fdedcb; color: #b45309; }
+
+/* group labels */
+.eco-lane {
+  position: absolute; transform: translate(-50%, -50%); z-index: 2;
+  font-family: var(--font-display); font-weight: 700; font-size: 11.5px;
+  letter-spacing: .09em; text-transform: uppercase; padding: 6px 14px; border-radius: 99px; white-space: nowrap;
+}
+.eco-lane.cust { background: #d6f5ef; color: #0d7a70; }
+.eco-lane.tech { background: #e6e8ff; color: #4338ca; }
+.eco-lane.own  { background: #fdedcb; color: #b45309; }
+
+/* positions (percent of the .eco-hub box) — owners up top, hub in the middle */
+.p-hub { left: 50%; top: 56%; }
+.p-own { left: 50%; top: 15%; }
+.p-book { left: 15.5%; top: 35%; }
+.p-kiosk { left: 15.5%; top: 80%; }
+.p-techapp { left: 84.5%; top: 35%; }
+.p-portal { left: 84.5%; top: 80%; }
+.p-own-lane { left: 50%; top: 3%; }
+.p-cust-lane { left: 15.5%; top: 19%; }
+.p-tech-lane { left: 84.5%; top: 19%; }
+
+/* stacked, labelled groups on smaller screens */
+@media (max-width: 900px) {
+  .eco-hub { aspect-ratio: auto; max-width: 440px; display: flex; flex-direction: column; gap: 12px; }
+  .eco-links { display: none; }
+  .eco-node, .eco-lane { position: static; transform: none; width: auto; }
+  .eco-node.hub { align-self: stretch; }
+  .eco-node.hub:hover { transform: none; }
+  .eco-lane { align-self: flex-start; margin-top: 12px; }
+}
 
 /* ---- Feature teasers / benefit rows ---- */
 .features { background: var(--tint-2); }
