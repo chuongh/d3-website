@@ -1,0 +1,305 @@
+{
+  "common": {
+    "bookDemo": "Đặt Demo Miễn Phí",
+    "bookDemoShort": "Đặt Demo",
+    "callUs": "Gọi cho chúng tôi",
+    "callHotline": "Gọi (919) 655-3989",
+    "learnMore": "Tìm hiểu thêm",
+    "freeSetup": "Cài đặt & hướng dẫn miễn phí",
+    "noContract": "Không hợp đồng dài hạn",
+    "usSupport": "Hỗ trợ tại Mỹ",
+    "hoursLine": "Thứ 2–Thứ 7, 9 giờ sáng – 7 giờ tối · Có hỗ trợ tiếng Việt",
+    "languageSupport": "Có hỗ trợ tiếng Việt"
+  },
+  "nav": {
+    "features": "Tính Năng",
+    "salonPos": "Salon POS",
+    "onlineBooking": "Online Booking",
+    "checkIn": "Check-In Nhanh",
+    "payroll": "Payroll",
+    "pricing": "Bảng Giá",
+    "about": "Giới Thiệu",
+    "blog": "Blog",
+    "skipToContent": "Bỏ qua tới nội dung"
+  },
+  "home": {
+    "meta": {
+      "title": "Phần Mềm POS & Quản Lý Tiệm Nail | D3",
+      "description": "POS, online booking, payroll và kiosk check-in cho tiệm nail — tất cả trong một. Đặt demo miễn phí hoặc gọi (919) 655-3989."
+    },
+    "hero": {
+      "badge": "Tất Cả Giải Pháp Cho Tiệm Trong Một Chỗ",
+      "h1Lead": "Phần Mềm POS & Quản Lý Tiệm Nail",
+      "h1Emphasis": "Làm Cho Cả Tiệm Của Bạn",
+      "lead": "Một hệ thống lo hết front desk, online booking, payroll, thanh toán và kiosk check-in — để bạn lo điều hành tiệm, chứ không phải lo phần mềm.",
+      "glassBadge": "Từ check-in tới tính tiền trong một hệ thống"
+    },
+    "proof": {
+      "heading": "Được các tiệm nail khắp nước Mỹ tin dùng"
+    },
+    "ecosystem": {
+      "eyebrow": "Một Hệ Thống, Sáu Công Cụ",
+      "h2": "Hệ Sinh Thái Phần Mềm Quản Lý Tiệm Trọn Vẹn",
+      "lead": "Mọi công cụ đều chạy chung một hệ thống — khách đặt online, check-in tại kiosk, tính tiền tại POS, và payroll tự cập nhật.",
+      "cards": {
+        "pos": { "name": "D3 Salon POS", "desc": "Tính tiền nhanh, quản lý ticket, theo dõi turn và báo cáo cuối ngày — trung tâm điều hành mà front desk dùng cả ngày." },
+        "booking": { "name": "Online Booking", "desc": "Khách tự đặt hẹn 24/7 với khung giờ theo sức chứa của tiệm và tự động nhắc tin." },
+        "owner": { "name": "App cho Chủ Tiệm", "desc": "Doanh thu, payroll và lịch hẹn ngay trong túi bạn. Điều hành tiệm từ bất cứ đâu." },
+        "tech": { "name": "App cho Thợ", "desc": "Thợ xem lịch hẹn, turn và tiền công ngay theo thời gian thực." },
+        "kiosk": { "name": "Kiosk Check-In Nhanh", "desc": "Khách tự check-in trên iPad bằng số điện thoại, QR code và in ticket ngay lập tức." },
+        "portal": { "name": "Portal cho Thợ", "desc": "Trang web để thợ xem giờ làm, tiền công và lịch sử ticket." }
+      }
+    },
+    "features": {
+      "eyebrow": "Làm Riêng Cho Tiệm Nail",
+      "h2": "Những Tính Năng Lo Trọn Một Ngày Của Bạn",
+      "rows": {
+        "booking": { "eyebrow": "Online Booking", "h3": "Đầy lịch hẹn ngay cả khi bạn đang ngủ", "p": "Trang booking của bạn mở 24/7 và đồng bộ thẳng vào lịch hẹn, kèm nhắc tin để bớt khách bỏ hẹn.", "link": "Tìm hiểu thêm về Online Booking" },
+        "payroll": { "eyebrow": "Payroll", "h3": "Payroll tự tính toán giùm bạn", "p": "Cài đặt W2/1099, hoàn tip và chia turn được tính ngay khi đóng ticket — không phải ngồi với bảng tính tối Chủ Nhật.", "link": "Tìm hiểu thêm về Payroll" },
+        "checkin": { "eyebrow": "Check-In Nhanh", "h3": "Front desk không bao giờ bị xếp hàng", "p": "Khách walk-in tự check-in trên iPad hoặc bằng QR code — và ticket dịch vụ in ra trước khi họ ngồi xuống.", "link": "Tìm hiểu thêm về Check-In" },
+        "payments": { "eyebrow": "Thanh Toán", "h3": "Tính tiền một bước, không nhập trùng", "p": "Máy quẹt thẻ nối thẳng vào POS — thông tin thanh toán tự lưu vào ticket, tip luôn chia đúng mỗi lần.", "link": "Tìm hiểu thêm về Salon POS" }
+      }
+    },
+    "personas": {
+      "eyebrow": "Cho Mọi Người Trong Tiệm",
+      "h2": "Chủ Tiệm, Thợ và Khách Đều Được Lợi",
+      "owners": { "title": "Cho Chủ Tiệm", "items": ["Xem doanh thu thời gian thực ngay trên điện thoại", "Payroll tự tính toán", "Quản lý nhiều tiệm từ xa"] },
+      "techs": { "title": "Cho Thợ", "items": ["Xem lịch hẹn và turn ngay trong app", "Tiền công rõ ràng, không bất ngờ", "Khách có thể yêu cầu đích danh bạn"] },
+      "clients": { "title": "Cho Khách", "items": ["Đặt hẹn online bất cứ lúc nào, trên mọi thiết bị", "Tự check-in dưới 20 giây", "Đúng thợ ruột của họ mỗi lần ghé"] }
+    },
+    "faq": {
+      "eyebrow": "Câu Hỏi Thường Gặp",
+      "h2": "Những Câu Chủ Tiệm Hay Hỏi Chúng Tôi",
+      "items": [
+        { "q": "Tôi cần máy móc gì để chạy D3?", "a": "Một máy tính hoặc máy tính bảng cho POS, một iPad cho kiosk check-in, và một máy in receipt. Chúng tôi sẽ tư vấn model cụ thể trong buổi demo của bạn." },
+        { "q": "Có kèm online booking không?", "a": "Có. Khách đặt từ website của bạn hoặc một đường link bạn chia sẻ, và lịch hẹn tự đồng bộ vào lịch của bạn — kèm nhắc tin luôn." },
+        { "q": "Payroll hoạt động ra sao?", "a": "D3 tính tiền công cho thợ ngay khi đóng ticket — W2 hay 1099, tip, chia turn và phí tiệm đều tính hết. Payroll mỗi ngày sẵn sàng vào cuối ngày." },
+        { "q": "Các bạn có chuyển dữ liệu từ POS hiện tại của tôi không?", "a": "Có. Chúng tôi chuyển khách, dịch vụ và số dư gift card của bạn, nằm trong gói hướng dẫn miễn phí." },
+        { "q": "Có hợp đồng dài hạn không?", "a": "Không. D3 trả theo tháng. Chúng tôi giữ bạn từng tháng bằng chất lượng — đó là lý do các tiệm ở lại với chúng tôi." }
+      ]
+    }
+  },
+  "demo": {
+    "eyebrow": "Bắt Đầu",
+    "h2": "Xem D3 Chạy Cho Tiệm Của Bạn — Trong 20 Phút",
+    "p": "Đặt demo miễn phí và chúng tôi sẽ đi qua đúng quy trình của tiệm bạn: check-in, booking, tính tiền và payroll. Không ép buộc, không hợp đồng.",
+    "phoneSub": "Thứ 2–Thứ 7, 9 giờ sáng – 7 giờ tối · Có hỗ trợ tiếng Việt",
+    "form": {
+      "salon": "Tên tiệm",
+      "salonPlaceholder": "vd. Lumi Nails & Spa",
+      "name": "Tên của bạn",
+      "namePlaceholder": "Họ và tên",
+      "phone": "Số điện thoại",
+      "phonePlaceholder": "(555) 555-5555",
+      "email": "Email",
+      "emailPlaceholder": "you@salon.com",
+      "techs": "Số lượng thợ",
+      "message": "Có điều gì chúng tôi nên biết không? (không bắt buộc)",
+      "messagePlaceholder": "POS hiện tại, số lượng tiệm, điều bạn muốn cải thiện…",
+      "submit": "Đặt Demo Miễn Phí Của Tôi",
+      "submitting": "Đang gửi…",
+      "note": "Chúng tôi sẽ liên hệ trong vòng một ngày làm việc. Không bao giờ spam.",
+      "required": "bắt buộc",
+      "successTitle": "Cảm ơn — chúng tôi đã nhận được!",
+      "successBody": "Yêu cầu demo của bạn đã được ghi nhận. Một chuyên viên D3 sẽ gọi bạn trong vòng một ngày làm việc. Muốn nói chuyện ngay? Gọi (919) 655-3989.",
+      "errorBody": "Có lỗi xảy ra khi gửi yêu cầu của bạn. Vui lòng gọi (919) 655-3989 và chúng tôi sẽ lo cho bạn."
+    }
+  },
+  "pages": {
+    "salonPos": {
+      "meta": { "title": "Phần Mềm Salon POS Cho Tiệm Nail | D3", "description": "Phần mềm POS cho tiệm nail với theo dõi turn, tính tiền một bước, thanh toán tích hợp và báo cáo cuối ngày. Đặt demo miễn phí." },
+      "kicker": "Salon POS",
+      "h1": "Phần Mềm Salon POS Làm Riêng Cho Tiệm Nail",
+      "lead": "Tính tiền nhanh, theo dõi turn, thanh toán tích hợp và báo cáo cuối ngày — trung tâm điều hành mà front desk dùng cả ngày.",
+      "benefits": [
+        { "eyebrow": "Tính Tiền Nhanh", "h3": "Tính tiền một bước, không nhập trùng", "p": "Máy quẹt thẻ nối thẳng vào POS, nên thông tin thẻ và tip tự lưu vào ticket — không gõ lại, không lệch tổng tiền khi đóng sổ.", "items": ["Máy quẹt thẻ tích hợp, thanh toán lưu thẳng vào ticket", "Tự nhập tip và chia tip đúng", "Tính tiền một bước với dữ liệu tự nhập"] },
+        { "eyebrow": "Theo Dõi Turn", "h3": "Theo dõi turn đúng cách tiệm bạn chạy", "p": "Ai tới trước phục vụ trước, theo tổng tiền, theo loại dịch vụ hay theo số turn — chọn quy tắc tiệm bạn dùng và D3 tự giữ vòng turn cho công bằng.", "items": ["Bốn cách chia turn: tới trước phục vụ trước, tổng tiền, loại dịch vụ, số turn", "Sẵn xử lý khách yêu cầu thợ đích danh", "Turn chảy thẳng vào payroll"] },
+        { "eyebrow": "Cuối Ngày", "h3": "Tự đóng sổ tiền và báo cáo gọn gàng", "p": "Đóng ngày trong vài phút với tự đóng sổ tiền, doanh số ngày và ảnh chụp payroll — để bạn rời tiệm là biết rõ con số của mình.", "items": ["Tự đóng sổ tiền vào cuối ngày", "Báo cáo doanh số, dịch vụ và thợ mỗi ngày", "Số dư gift card và loyalty ngay trong cùng POS"] }
+      ],
+      "faq": [
+        { "q": "Tôi có thể dùng máy xử lý thanh toán riêng không?", "a": "Chúng tôi sẽ nói về các lựa chọn thanh toán trong buổi demo và tư vấn cái hợp nhất cho tiệm bạn. Máy quẹt thẻ đều tích hợp thẳng vào POS dù bằng cách nào." },
+        { "q": "Tôi có thể có bao nhiêu thợ và ticket?", "a": "Không giới hạn ở mọi gói. Giá tính theo tiệm, không theo số người trong team." },
+        { "q": "Có lo gift card và loyalty không?", "a": "Có — gift card và chương trình loyalty nằm trong cùng POS và tự áp dụng khi tính tiền." }
+      ]
+    },
+    "onlineBooking": {
+      "meta": { "title": "Phần Mềm Online Booking Cho Tiệm Nail | D3", "description": "Phần mềm đặt hẹn 24/7 cho tiệm nail với khung giờ theo sức chứa, nhắc tin và đồng bộ lịch. Bớt khách bỏ hẹn. Đặt demo miễn phí." },
+      "kicker": "Online Booking",
+      "h1": "Phần Mềm Online Booking Làm Đầy Tiệm Nail Của Bạn",
+      "lead": "Trang booking của bạn mở 24/7, đồng bộ thẳng vào lịch hẹn, và gửi nhắc tin để bớt khách bỏ hẹn.",
+      "benefits": [
+        { "eyebrow": "Luôn Mở", "h3": "Đầy lịch hẹn ngay cả khi bạn đang ngủ", "p": "Khách đặt bất cứ lúc nào từ website hoặc đường link bạn chia sẻ. Khung giờ theo sức chứa nghĩa là bạn chỉ nhận hẹn mà tiệm thật sự lo được.", "items": ["Đặt 24/7 từ website hoặc đường link chia sẻ", "Khung giờ theo sức chứa, không đặt trùng", "Khách chọn đích danh thợ ruột của họ"] },
+        { "eyebrow": "Bớt Khách Bỏ Hẹn", "h3": "Nhắc tin kéo khách quay lại", "p": "Tự động nhắc tin và xác nhận giữ ghế luôn đầy, và khách đã đặt hẹn check-in còn nhanh hơn tại kiosk.", "items": ["Tự động xác nhận và nhắc tin", "Loyalty và khuyến mãi qua tin nhắn", "Khách đặt hẹn chảy thẳng vào check-in"] },
+        { "eyebrow": "Đồng Bộ", "h3": "Lịch hẹn tự rơi vào lịch của tiệm", "p": "Mỗi lịch hẹn online đồng bộ vào đúng lịch mà front desk và thợ đang dùng — không phải quản lý thêm cuốn lịch thứ hai.", "items": ["Đồng bộ thời gian thực vào lịch của tiệm", "Hiển thị trong App cho Chủ Tiệm và App cho Thợ", "Turn và payroll cập nhật khi lịch hẹn được phục vụ"] }
+      ],
+      "faq": [
+        { "q": "Khách đặt hẹn từ đâu?", "a": "Từ chính website của bạn, đường link bạn chia sẻ trên mạng xã hội, hoặc QR code trong tiệm. Trang booking là của bạn và hợp với tiệm bạn." },
+        { "q": "Nó có chặn đặt trùng không?", "a": "Có. Khung giờ tính theo sức chứa, nên khách chỉ đặt được những giờ mà tiệm bạn thật sự lo được." },
+        { "q": "Khách có được nhắc không?", "a": "Có — tự động xác nhận và nhắc tin có sẵn, đây là cách hiệu quả nhất để giảm khách bỏ hẹn." }
+      ]
+    },
+    "checkIn": {
+      "meta": { "title": "App Check-In & Kiosk iPad Cho Tiệm Nail | D3", "description": "App tự check-in cho tiệm nail. Kiosk iPad, tra số điện thoại, QR code và in ticket ngay. Hết xếp hàng ở front desk. Đặt demo." },
+      "kicker": "Check-In Nhanh",
+      "h1": "App Check-In Cho Tiệm Nail Giúp Hết Xếp Hàng Ở Front Desk",
+      "lead": "Khách tự check-in trên iPad hoặc bằng QR code. Ticket dịch vụ in ra ngay. Front desk của bạn được rảnh tay.",
+      "benefits": [
+        { "eyebrow": "Tự Check-In", "h3": "18 giây từ cửa tới ticket", "p": "Khách quen được nhận diện qua số điện thoại. Khách mới được thêm ngay tại chỗ — không cần kẹp giấy, không chờ front desk.", "items": ["Tra số điện thoại với nhận diện khách quen", "Tùy chọn chọn dịch vụ và thợ ưa thích", "Check-in không chạm bằng QR code từ điện thoại của khách"] },
+        { "eyebrow": "Ticket Tức Thì", "h3": "Ticket in ra trước khi khách ngồi xuống", "p": "Mỗi lần check-in in một ticket dịch vụ thẳng ra máy in ở front desk, để thợ biết ai là người kế tiếp và họ đặt gì.", "items": ["In ngay qua mạng nội bộ của tiệm", "In lại và lịch sử in nếu máy in trục trặc", "Check-in chảy vào theo dõi turn tự động"] },
+        { "eyebrow": "Sẵn Loyalty", "h3": "Mỗi lần ghé tự cộng điểm", "p": "Check-in kết nối với chương trình loyalty — khách tích điểm và nhận khuyến mãi riêng qua tin nhắn, mà front desk không phải làm thêm gì.", "items": ["Theo dõi điểm theo từng khách, đổi điểm khi tính tiền", "Tin nhắn khuyến mãi riêng để kéo khách quay lại", "Dùng chung với gift card trong cùng POS"] }
+      ],
+      "faq": [
+        { "q": "Kiosk chạy trên thiết bị gì?", "a": "Một chiếc iPad ở front desk. Chúng tôi giúp bạn cài máy in và chân đế trong lúc hướng dẫn." },
+        { "q": "Khách có thể bỏ qua bước chọn dịch vụ không?", "a": "Có — chọn dịch vụ và thợ là tùy chọn. Khách có thể check-in chỉ với số điện thoại." },
+        { "q": "Nếu máy in hỏng thì sao?", "a": "Kiosk cho in lại, kiểm tra cài đặt máy in, và lưu lịch sử in lỗi để không bao giờ mất ticket." }
+      ]
+    },
+    "payroll": {
+      "meta": { "title": "Phần Mềm Payroll Cho Tiệm — W2 & 1099 | D3", "description": "Phần mềm payroll cho tiệm nail với cài đặt W2/1099, chia turn, hoàn tip và payroll mỗi ngày. Tính xong khi đóng ticket. Đặt demo." },
+      "kicker": "Payroll",
+      "h1": "Phần Mềm Payroll Cho Thợ W2 & 1099",
+      "lead": "Chia turn, hoàn tip và payroll mỗi ngày được tính ngay khi đóng ticket — không phải ngồi với bảng tính tối Chủ Nhật.",
+      "benefits": [
+        { "eyebrow": "W2 & 1099", "h3": "Cài đặt mỗi thợ đúng cách", "p": "Cài W2 hay 1099, tỉ lệ ăn chia, lương giờ, và phí tiệm cho từng thợ — D3 tự áp dụng đúng cách tính cho mỗi ticket.", "items": ["Cài W2 hay 1099 theo từng thợ", "Quy tắc ăn chia, lương giờ và phí tiệm", "Hoàn tip được xử lý đúng"] },
+        { "eyebrow": "Chia Theo Turn", "h3": "Tiền công theo đúng quy tắc turn của bạn", "p": "Dù tiệm bạn dùng cách chia turn nào, tiền công tự chia khi đóng ticket — công bằng, rõ ràng và thợ thấy được trong app của họ.", "items": ["Chia theo cách chia turn của bạn tự động", "Thợ thấy tiền công thời gian thực trong app", "Không phải đối chiếu bảng tính cuối tuần"] },
+        { "eyebrow": "Payroll Mỗi Ngày", "h3": "Payroll sẵn sàng vào cuối ngày", "p": "Ảnh chụp payroll sẵn mỗi ngày kèm tự đóng sổ tiền — để bạn luôn biết mỗi thợ kiếm được bao nhiêu trước khi ra về.", "items": ["Ảnh chụp payroll mỗi ngày kèm tự đóng sổ tiền", "Giờ làm, turn và lịch sử tiền công theo từng thợ", "Bảng tổng kết sẵn để xuất cho kế toán của bạn"] }
+      ],
+      "faq": [
+        { "q": "D3 có hỗ trợ cả W2 và 1099 không?", "a": "Có. Mỗi thợ có thể cài là W2 hay 1099 với quy tắc ăn chia, lương giờ và phí riêng." },
+        { "q": "Tip được xử lý ra sao?", "a": "Tip được ghi nhận khi tính tiền và hoàn cho đúng thợ tự động, kèm chia tip ở những tiệm có dùng." },
+        { "q": "Kế toán của tôi lấy được con số không?", "a": "Có — bảng tổng kết payroll mỗi ngày và theo kỳ sẵn để xuất, nên người giữ sổ hay kế toán của bạn có con số sạch sẽ." }
+      ]
+    },
+    "crosslinks": {
+      "heading": "Hoạt Động Cùng Với",
+      "pos": { "name": "Salon POS", "blurb": "Check-in và booking thành ticket ở front desk" },
+      "booking": { "name": "Online Booking", "blurb": "Khách đã đặt hẹn check-in còn nhanh hơn" },
+      "checkin": { "name": "Check-In Nhanh", "blurb": "Khách walk-in tự check-in trên iPad" },
+      "payroll": { "name": "Payroll", "blurb": "Turn chảy thẳng vào tiền công của thợ" }
+    },
+    "featureCta": {
+      "h2": "Xem trực tiếp với dịch vụ của bạn đã nạp sẵn",
+      "p": "Demo 20 phút, đúng quy trình của bạn, không hợp đồng."
+    }
+  },
+  "pricing": {
+    "meta": { "title": "Bảng Giá — Các Gói POS Cho Tiệm Nail | D3", "description": "Bảng giá phần mềm tiệm nail đơn giản. Basic $49.95/tháng và Premium $99.95/tháng. Theo tháng, không hợp đồng, cài đặt miễn phí. Đặt demo." },
+    "kicker": "Bảng Giá",
+    "h1": "Bảng Giá Đơn Giản Cho Mọi Tiệm",
+    "lead": "Hai gói, bao gồm mọi thứ, không hợp đồng. Trả theo tháng kèm cài đặt và chuyển dữ liệu miễn phí.",
+    "perMonth": "/tháng",
+    "mostPopular": "Được chọn nhiều nhất",
+    "ctaBasic": "Đặt Demo",
+    "ctaPremium": "Đặt Demo",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "$49.95",
+        "blurb": "Tất cả những gì một tiệm cần để tính tiền và chạy front desk.",
+        "features": [
+          "Salon POS",
+          "Máy Quẹt Thẻ",
+          "Thợ & ticket không giới hạn",
+          "Cài đặt & chuyển dữ liệu miễn phí",
+          "Hỗ trợ tại Mỹ 7 ngày một tuần"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "$99.95",
+        "blurb": "Trọn hệ sinh thái — kiosk, app, booking và loyalty.",
+        "everythingIn": "Mọi thứ trong gói Basic, cộng thêm:",
+        "features": [
+          "Kiosk Check-In Nhanh",
+          "App Di Động Cho Chủ Tiệm",
+          "App Di Động Cho Thợ",
+          "Module Online Booking",
+          "Nhắc tin & chương trình Loyalty"
+        ]
+      }
+    },
+    "footnote": "Cả hai gói đều trả theo tháng, không hợp đồng và hướng dẫn miễn phí. Máy móc được báo giá riêng dựa trên những gì tiệm bạn đã có sẵn.",
+    "faq": {
+      "eyebrow": "Câu Hỏi Về Giá",
+      "h2": "Điều Cần Biết",
+      "items": [
+        { "q": "Có phí cài đặt không?", "a": "Cài đặt, chuyển dữ liệu và hướng dẫn đều miễn phí. Máy móc được báo giá riêng dựa trên những gì tiệm bạn đã có sẵn." },
+        { "q": "Có hợp đồng không?", "a": "Không — cả hai gói đều trả theo tháng. Ngừng bất cứ lúc nào." },
+        { "q": "Giá có thay đổi khi thêm thợ không?", "a": "Không. Thợ và ticket không giới hạn. Giá tính theo gói, theo tiệm — không theo số người trong team." }
+      ]
+    }
+  },
+  "about": {
+    "meta": { "title": "Về D3 Salon Solution — Raleigh, NC", "description": "D3 xây tiệm và làm phần mềm để vận hành tiệm. Đặt tại Raleigh, NC, phục vụ tiệm nail khắp nước Mỹ. Đặt demo miễn phí." },
+    "kicker": "Giới Thiệu",
+    "h1": "Chúng Tôi Xây Tiệm. Rồi Chúng Tôi Làm Phần Mềm Để Vận Hành Tiệm.",
+    "lead": "Tất cả giải pháp cho tiệm trong một chỗ — từ Raleigh, North Carolina đến các tiệm khắp nước Mỹ.",
+    "storyEyebrow": "Câu Chuyện Của Chúng Tôi",
+    "storyH2": "Phần mềm được thiết kế ngay trên sàn tiệm, không phải trong phòng họp",
+    "storyP1": "D3 khởi đầu bằng việc xây chính các tiệm — bàn ghế đặt riêng, ghế pedicure, thi công trọn gói. Nhiều năm làm việc bên trong các tiệm nail thật cho chúng tôi thấy rõ chỗ nào kẹt trong ngày: hàng người chờ ở front desk lúc 2 giờ chiều, bảng tính payroll tối Chủ Nhật, khách bỏ hẹn để trống một cái ghế.",
+    "storyP2": "Vậy nên chúng tôi làm ra phần mềm mà chúng tôi ước mọi tiệm mình từng đóng đồ đã có sẵn. Mọi tính năng trong D3 — theo dõi turn, tự check-in, payroll W2/1099 — đều có vì một tiệm đang chạy thật sự cần tới nó.",
+    "hqNote": "Trụ sở chính: Raleigh, North Carolina — ghé showroom của chúng tôi hoặc gặp chúng tôi tại hội chợ ngành nail kế tiếp.",
+    "stats": [
+      { "value": "[X]+", "label": "tiệm đang chạy trên D3" },
+      { "value": "[X]", "label": "năm phục vụ ngành nail" },
+      { "value": "[X]", "label": "tiểu bang có tiệm dùng D3" }
+    ],
+    "installsEyebrow": "Tiệm Thật, Lắp Đặt Thật",
+    "installsH2": "Những Tiệm Chúng Tôi Làm Cùng",
+    "cta": { "h2": "Nói chuyện với người hiểu tiệm", "p": "Team của chúng tôi đã từng đứng ở front desk. Hãy để chúng tôi đi qua tiệm của bạn." }
+  },
+  "contact": {
+    "meta": { "title": "Đặt Demo Miễn Phí — D3 Salon Solution", "description": "Đặt demo miễn phí 20 phút phần mềm tiệm nail D3, hoặc gọi (919) 655-3989. Chúng tôi đi qua đúng quy trình của tiệm bạn." },
+    "kicker": "Liên Hệ",
+    "h1": "Đặt Demo Miễn Phí",
+    "lead": "Xem D3 chạy đúng quy trình của tiệm bạn — check-in, booking, tính tiền và payroll. 20 phút, không ép buộc, không hợp đồng.",
+    "infoHeading": "Muốn nói chuyện ngay?",
+    "callLabel": "Gọi cho team chúng tôi",
+    "emailLabel": "Email cho chúng tôi",
+    "hoursLabel": "Giờ làm việc",
+    "locationLabel": "Trụ sở chính"
+  },
+  "blog": {
+    "meta": { "title": "Cẩm Nang Cho Chủ Tiệm — D3 Blog", "description": "Hướng dẫn thực tế về payroll tiệm nail, khách bỏ hẹn, kiosk check-in và cách chọn POS — từ team chuyên xây tiệm." },
+    "kicker": "Blog",
+    "h1": "Cẩm Nang Cho Chủ Tiệm",
+    "lead": "Hướng dẫn thực tế về payroll, khách bỏ hẹn, check-in và cách chọn công cụ phù hợp — từ team chuyên xây tiệm.",
+    "readTimeSuffix": "phút đọc",
+    "backToBlog": "Quay lại tất cả bài viết",
+    "relatedHeading": "Đọc tiếp",
+    "byAuthor": "Bởi",
+    "breadcrumbBlog": "Blog"
+  },
+  "legal": {
+    "privacy": {
+      "meta": { "title": "Chính Sách Bảo Mật — D3 Salon Solution", "description": "Cách D3 Salon Solution thu thập, sử dụng và bảo vệ thông tin của bạn." },
+      "h1": "Chính Sách Bảo Mật",
+      "updated": "Cập nhật lần cuối: Tháng 6, 2026",
+      "placeholder": "Đây là Chính Sách Bảo Mật tạm thời. Bản pháp lý cuối cùng đang chờ duyệt trước khi ra mắt (spec §8)."
+    },
+    "terms": {
+      "meta": { "title": "Điều Khoản Dịch Vụ — D3 Salon Solution", "description": "Các điều khoản quy định việc bạn sử dụng website và dịch vụ của D3 Salon Solution." },
+      "h1": "Điều Khoản Dịch Vụ",
+      "updated": "Cập nhật lần cuối: Tháng 6, 2026",
+      "placeholder": "Đây là Điều Khoản Dịch Vụ tạm thời. Bản pháp lý cuối cùng đang chờ duyệt trước khi ra mắt (spec §8)."
+    }
+  },
+  "footer": {
+    "brandBlurb": "Tất cả giải pháp cho tiệm trong một chỗ — hệ thống POS và quản lý được làm riêng cho tiệm nail & beauty khắp nước Mỹ.",
+    "product": "Sản Phẩm",
+    "company": "Công Ty",
+    "moreFromD3": "Thêm Từ D3",
+    "salonFurniture": "Bàn Ghế Cho Tiệm",
+    "pedicureChairs": "Ghế Pedicure",
+    "marketingServices": "Dịch Vụ Marketing",
+    "photoVideo": "Chụp Hình & Quay Phim",
+    "privacy": "Chính Sách Bảo Mật",
+    "terms": "Điều Khoản Dịch Vụ",
+    "copyright": "Tất cả giải pháp cho tiệm trong một chỗ.",
+    "locationLine": "Raleigh, NC"
+  },
+  "breadcrumb": {
+    "home": "Trang Chủ",
+    "features": "Tính Năng"
+  }
+}

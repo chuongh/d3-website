@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/salon-software", "destination": "/", "permanent": true },
+    { "source": "/salon-software/", "destination": "/", "permanent": true },
+    { "source": "/terms-conditions", "destination": "/terms", "permanent": true },
+    { "source": "/terms-conditions/", "destination": "/terms", "permanent": true },
+    { "source": "/salon-furniture", "destination": "https://furniture.d3salonsolution.com/salon-furniture/", "permanent": true },
+    { "source": "/salon-furniture/", "destination": "https://furniture.d3salonsolution.com/salon-furniture/", "permanent": true },
+    { "source": "/pedicure-chairs/:path*", "destination": "https://furniture.d3salonsolution.com/pedicure-chairs/", "permanent": true },
+    { "source": "/manicure-tables/:path*", "destination": "https://furniture.d3salonsolution.com/manicure-tables/", "permanent": true },
+    { "source": "/salon-equipment/:path*", "destination": "https://furniture.d3salonsolution.com/salon-equipment/", "permanent": true },
+    { "source": "/marketing-services/:path*", "destination": "https://furniture.d3salonsolution.com/marketing-services/", "permanent": true },
+    { "source": "/graphic-design/:path*", "destination": "https://furniture.d3salonsolution.com/graphic-design/", "permanent": true },
+    { "source": "/photo-video/:path*", "destination": "https://furniture.d3salonsolution.com/photo-video/", "permanent": true },
+    { "source": "/web-design/:path*", "destination": "https://furniture.d3salonsolution.com/web-design/", "permanent": true },
+    { "source": "/contact-us/:path*", "destination": "https://furniture.d3salonsolution.com/contact-us/", "permanent": true }
+  ]
+}

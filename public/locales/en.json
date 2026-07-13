@@ -1,0 +1,305 @@
+{
+  "common": {
+    "bookDemo": "Book a Free Demo",
+    "bookDemoShort": "Book a Demo",
+    "callUs": "Call us",
+    "callHotline": "Call (919) 655-3989",
+    "learnMore": "Learn more",
+    "freeSetup": "Free setup & onboarding",
+    "noContract": "No long-term contract",
+    "usSupport": "US-based support",
+    "hoursLine": "Mon–Sat, 9 AM – 7 PM · Hablamos español",
+    "languageSupport": "Hablamos español"
+  },
+  "nav": {
+    "features": "Features",
+    "salonPos": "Salon POS",
+    "onlineBooking": "Online Booking",
+    "checkIn": "Quick Check-In",
+    "payroll": "Payroll",
+    "pricing": "Pricing",
+    "about": "About",
+    "blog": "Blog",
+    "skipToContent": "Skip to content"
+  },
+  "home": {
+    "meta": {
+      "title": "Nail Salon POS & Management Software | D3",
+      "description": "All-in-one nail salon POS, online booking, payroll and self check-in kiosk. Book a free demo or call (919) 655-3989."
+    },
+    "hero": {
+      "badge": "All Salon Solutions in One Place",
+      "h1Lead": "Nail Salon POS & Management Software",
+      "h1Emphasis": "Built for Your Whole Team",
+      "lead": "One platform that runs your front desk, online booking, payroll, payments and self check-in kiosk — so you can run the salon, not the software.",
+      "glassBadge": "Check-in to checkout in one system"
+    },
+    "proof": {
+      "heading": "Trusted by nail salons across the US"
+    },
+    "ecosystem": {
+      "eyebrow": "One Platform, Six Tools",
+      "h2": "A Complete Salon Management Software Ecosystem",
+      "lead": "Every tool talks to the same system — book online, check in at the kiosk, ring up at the POS, and payroll updates itself.",
+      "cards": {
+        "pos": { "name": "D3 Salon POS", "desc": "Fast checkout, ticket management, turn tracking and end-of-day reports — the command center your front desk runs all day." },
+        "booking": { "name": "Online Booking", "desc": "Clients book 24/7 with capacity-aware timeslots and automatic text reminders." },
+        "owner": { "name": "Owner App", "desc": "Revenue, payroll and schedules in your pocket. Run the salon from anywhere." },
+        "tech": { "name": "Technician App", "desc": "Technicians see their schedule, turns and payouts in real time." },
+        "kiosk": { "name": "Quick Check-In Kiosk", "desc": "iPad self check-in with phone lookup, QR code and instant ticket printing." },
+        "portal": { "name": "Technician Portal", "desc": "A web portal for technicians to review hours, payouts and ticket history." }
+      }
+    },
+    "features": {
+      "eyebrow": "Built for Nail Salons",
+      "h2": "The Features That Run Your Day",
+      "rows": {
+        "booking": { "eyebrow": "Online Booking", "h3": "Fill your book while you sleep", "p": "Your booking page stays open 24/7 and syncs straight to the schedule, with text reminders that cut no-shows.", "link": "Learn more about Online Booking" },
+        "payroll": { "eyebrow": "Payroll", "h3": "Payroll that does the math for you", "p": "W2/1099 setup, tip reimbursement and turn-based splits calculated as tickets close — not in a spreadsheet on Sunday night.", "link": "Learn more about Payroll" },
+        "checkin": { "eyebrow": "Quick Check-In", "h3": "A front desk that never gets a line", "p": "Walk-ins check themselves in on the iPad or by QR code — and a service ticket prints before they sit down.", "link": "Learn more about Check-In" },
+        "payments": { "eyebrow": "Payments", "h3": "One-step checkout, zero double entry", "p": "Terminals link directly to the POS — payment details save to the ticket automatically, tips split correctly every time.", "link": "Learn more about Salon POS" }
+      }
+    },
+    "personas": {
+      "eyebrow": "For Everyone in the Salon",
+      "h2": "Owners, Technicians and Clients All Win",
+      "owners": { "title": "For Owners", "items": ["Real-time revenue from your phone", "Payroll calculated automatically", "Manage multiple locations remotely"] },
+      "techs": { "title": "For Technicians", "items": ["See schedule and turns in the app", "Transparent payouts, no surprises", "Clients can request you by name"] },
+      "clients": { "title": "For Clients", "items": ["Book online any time, any device", "Self check-in in under 20 seconds", "Their favorite tech, every visit"] }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "h2": "Questions Salon Owners Ask Us",
+      "items": [
+        { "q": "What hardware do I need to run D3?", "a": "A computer or tablet for the POS, an iPad for the check-in kiosk, and a receipt printer. We'll recommend exact models during your demo." },
+        { "q": "Does it include online booking?", "a": "Yes. Clients book from your website or a link you share, and appointments sync to your schedule automatically — with text reminders included." },
+        { "q": "How does payroll work?", "a": "D3 calculates technician payouts as tickets close — W2 or 1099, tips, turn splits and salon fees included. Daily payroll is ready at end of day." },
+        { "q": "Will you migrate my data from my current POS?", "a": "Yes. We migrate your clients, services and gift card balances as part of free onboarding." },
+        { "q": "Is there a long-term contract?", "a": "No. D3 is month-to-month. We earn your business every month — that's why salons stay." }
+      ]
+    }
+  },
+  "demo": {
+    "eyebrow": "Get Started",
+    "h2": "See D3 Running Your Salon — in 20 Minutes",
+    "p": "Book a free demo and we'll walk through your salon's exact workflow: check-in, booking, checkout and payroll. No pressure, no contract.",
+    "phoneSub": "Mon–Sat, 9 AM – 7 PM · Hablamos español",
+    "form": {
+      "salon": "Salon name",
+      "salonPlaceholder": "e.g. Lumi Nails & Spa",
+      "name": "Your name",
+      "namePlaceholder": "Full name",
+      "phone": "Phone",
+      "phonePlaceholder": "(555) 555-5555",
+      "email": "Email",
+      "emailPlaceholder": "you@salon.com",
+      "techs": "Number of technicians",
+      "message": "Anything we should know? (optional)",
+      "messagePlaceholder": "Current POS, number of locations, what you want to improve…",
+      "submit": "Book My Free Demo",
+      "submitting": "Sending…",
+      "note": "We'll reach out within one business day. No spam, ever.",
+      "required": "required",
+      "successTitle": "Thanks — we got it!",
+      "successBody": "Your demo request is in. A D3 specialist will call you within one business day. Prefer to talk now? Call (919) 655-3989.",
+      "errorBody": "Something went wrong sending your request. Please call (919) 655-3989 and we'll get you set up."
+    }
+  },
+  "pages": {
+    "salonPos": {
+      "meta": { "title": "Salon POS Software for Nail Salons | D3", "description": "Nail salon point of sale software with turn tracking, one-step checkout, integrated payments and end-of-day reports. Book a free demo." },
+      "kicker": "Salon POS",
+      "h1": "Salon Point of Sale Software Built for Nail Salons",
+      "lead": "Fast checkout, turn tracking, integrated payments and end-of-day reports — the command center your front desk runs all day.",
+      "benefits": [
+        { "eyebrow": "Fast Checkout", "h3": "One-step checkout with zero double entry", "p": "Payment terminals link straight to the POS, so card details and tips save to the ticket automatically — no re-keying, no mismatched totals at close.", "items": ["Integrated card terminal, payment saved to the ticket", "Automatic tip entry and correct tip splitting", "One-step checkout with automatic data entry"] },
+        { "eyebrow": "Turn Tracking", "h3": "Turn tracking the way your salon actually runs", "p": "First Come First Serve, by total amount, by service type or by number of turns — pick the rule your salon uses and D3 keeps the rotation fair automatically.", "items": ["Four turn methods: FCFS, total amount, service type, number of turns", "Requested-technician handling built in", "Turns flow straight into payroll"] },
+        { "eyebrow": "End of Day", "h3": "Automatic till close and clean reports", "p": "Close the day in minutes with automatic till close, daily sales and a payroll snapshot — so you leave the salon knowing your numbers.", "items": ["Automatic till close at end of day", "Daily sales, service and technician reports", "Gift card and loyalty balances in the same POS"] }
+      ],
+      "faq": [
+        { "q": "Can I use my own payment processor?", "a": "We'll cover payment options during your demo and recommend the best fit for your salon. Terminals integrate directly with the POS either way." },
+        { "q": "How many technicians and tickets can I have?", "a": "Unlimited on every plan. Pricing scales by location, not by team size." },
+        { "q": "Does it handle gift cards and loyalty?", "a": "Yes — gift cards and the loyalty program live in the same POS and apply automatically at checkout." }
+      ]
+    },
+    "onlineBooking": {
+      "meta": { "title": "Online Booking Software for Nail Salons | D3", "description": "24/7 nail salon booking software with capacity-aware timeslots, text reminders and schedule sync. Cut no-shows. Book a free demo." },
+      "kicker": "Online Booking",
+      "h1": "Online Booking Software That Fills Your Nail Salon",
+      "lead": "Your booking page stays open 24/7, syncs straight to the schedule, and sends text reminders that cut no-shows.",
+      "benefits": [
+        { "eyebrow": "Always Open", "h3": "Fill your book while you sleep", "p": "Clients book any time from your website or a shared link. Capacity-aware timeslots mean you only ever take appointments you can actually staff.", "items": ["24/7 booking from your website or a share link", "Capacity-aware timeslots, no double-booking", "Clients pick their favorite technician by name"] },
+        { "eyebrow": "Fewer No-Shows", "h3": "Text reminders that bring clients back", "p": "Automatic text reminders and confirmations keep chairs full, and booked clients check in even faster at the kiosk.", "items": ["Automatic text confirmations and reminders", "Loyalty and promotions by text", "Booked clients flow straight into check-in"] },
+        { "eyebrow": "Synced", "h3": "Bookings land on the schedule automatically", "p": "Every online appointment syncs to the same schedule your front desk and technicians already use — no second calendar to manage.", "items": ["Real-time sync to the salon schedule", "Visible in the Owner and Technician apps", "Turns and payroll update as bookings are served"] }
+      ],
+      "faq": [
+        { "q": "Where do clients book from?", "a": "From your own website, a link you share on social media, or a QR code in the salon. The booking page is yours and matches your salon." },
+        { "q": "Will it stop double-booking?", "a": "Yes. Timeslots are capacity-aware, so clients can only book times you can actually staff." },
+        { "q": "Do clients get reminders?", "a": "Yes — automatic text confirmations and reminders are included, which is the single biggest lever on no-shows." }
+      ]
+    },
+    "checkIn": {
+      "meta": { "title": "Nail Salon Check-In App & iPad Kiosk | D3", "description": "Self check-in app for nail salons. iPad kiosk, phone lookup, QR code and instant ticket printing. Ends front-desk lines. Book a demo." },
+      "kicker": "Quick Check-In",
+      "h1": "The Nail Salon Check-In App That Ends Front-Desk Lines",
+      "lead": "Clients check themselves in on an iPad or by QR code. A service ticket prints instantly. Your front desk gets its time back.",
+      "benefits": [
+        { "eyebrow": "Self Check-In", "h3": "18 seconds from door to ticket", "p": "Returning clients are recognized by phone number. New clients are added on the spot — no clipboard, no waiting for the front desk.", "items": ["Phone number lookup with returning-client recognition", "Optional service and preferred-technician selection", "Contactless QR code check-in from the client's own phone"] },
+        { "eyebrow": "Instant Tickets", "h3": "Tickets print before they sit down", "p": "Every check-in prints a service ticket straight to your front desk printer, so technicians know who's next and what they booked.", "items": ["Instant printing over your salon network", "Retry and print history if a printer hiccups", "Check-ins flow into turn tracking automatically"] },
+        { "eyebrow": "Loyalty Built In", "h3": "Every visit earns points automatically", "p": "Check-in connects to the loyalty program — clients collect points and receive personalized promotions by text, with zero extra work at the desk.", "items": ["Points tracked per client, redeemed at checkout", "Personalized promotion texts to bring clients back", "Works with gift cards in the same POS"] }
+      ],
+      "faq": [
+        { "q": "What device does the kiosk run on?", "a": "An iPad at your front desk. We help you configure the printer and stand during onboarding." },
+        { "q": "Can clients skip choosing a service?", "a": "Yes — service and technician selection are optional. A client can check in with just their phone number." },
+        { "q": "What happens if the printer fails?", "a": "The kiosk offers a retry, a printer settings check, and a failed-print history so no ticket is ever lost." }
+      ]
+    },
+    "payroll": {
+      "meta": { "title": "Salon Payroll Software — W2 & 1099 | D3", "description": "Nail salon payroll software with W2/1099 setup, turn-based splits, tip reimbursement and daily payroll. Done as tickets close. Book a demo." },
+      "kicker": "Payroll",
+      "h1": "Salon Payroll Software for W2 & 1099 Technicians",
+      "lead": "Turn-based splits, tip reimbursement and daily payroll calculated as tickets close — not in a spreadsheet on Sunday night.",
+      "benefits": [
+        { "eyebrow": "W2 & 1099", "h3": "Set up each technician the right way", "p": "Configure W2 or 1099, commission rates, hourly, and salon fees per technician — D3 applies the right math to every ticket automatically.", "items": ["Per-technician W2 or 1099 setup", "Commission, hourly and salon-fee rules", "Tip reimbursement handled correctly"] },
+        { "eyebrow": "Turn-Based Splits", "h3": "Payouts that follow your turn rules", "p": "Whichever turn method your salon uses, payouts are split automatically as tickets close — fair, transparent and visible to technicians in their app.", "items": ["Splits follow your turn method automatically", "Technicians see payouts in real time in the app", "No end-of-week spreadsheet reconciliation"] },
+        { "eyebrow": "Daily Payroll", "h3": "Payroll ready at end of day", "p": "A payroll snapshot is ready every day with automatic till close — so you always know what each technician earned before you walk out.", "items": ["Daily payroll snapshot with automatic till close", "Per-technician hours, turns and payout history", "Export-ready summaries for your accountant"] }
+      ],
+      "faq": [
+        { "q": "Does D3 support both W2 and 1099?", "a": "Yes. Each technician can be set up as W2 or 1099 with their own commission, hourly and fee rules." },
+        { "q": "How are tips handled?", "a": "Tips are captured at checkout and reimbursed to the right technician automatically, with tip splitting where your salon uses it." },
+        { "q": "Can my accountant get the numbers?", "a": "Yes — daily and period payroll summaries are export-ready so your bookkeeper or accountant has clean figures." }
+      ]
+    },
+    "crosslinks": {
+      "heading": "Works Together With",
+      "pos": { "name": "Salon POS", "blurb": "Check-ins and bookings become tickets at the front desk" },
+      "booking": { "name": "Online Booking", "blurb": "Booked clients check in even faster" },
+      "checkin": { "name": "Quick Check-In", "blurb": "Walk-ins check themselves in on the iPad" },
+      "payroll": { "name": "Payroll", "blurb": "Turns feed straight into technician payouts" }
+    },
+    "featureCta": {
+      "h2": "See it live with your services loaded",
+      "p": "20-minute demo, your workflow, no contract."
+    }
+  },
+  "pricing": {
+    "meta": { "title": "Pricing — Nail Salon POS Plans | D3", "description": "Simple nail salon software pricing. Basic $49.95/mo and Premium $99.95/mo. Month-to-month, no contract, free setup. Book a demo." },
+    "kicker": "Pricing",
+    "h1": "Simple Pricing for Every Salon",
+    "lead": "Two plans, everything included, no contract. Month-to-month with free setup and data migration.",
+    "perMonth": "/mo",
+    "mostPopular": "Most popular",
+    "ctaBasic": "Book a Demo",
+    "ctaPremium": "Book a Demo",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "$49.95",
+        "blurb": "Everything a salon needs to ring up and run the front desk.",
+        "features": [
+          "Salon POS",
+          "Payment Terminal",
+          "Unlimited technicians & tickets",
+          "Free setup & data migration",
+          "US-based support 7 days a week"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "$99.95",
+        "blurb": "The full ecosystem — kiosk, apps, booking and loyalty.",
+        "everythingIn": "Everything in Basic, plus:",
+        "features": [
+          "Quick Check-In Kiosk",
+          "Owner Mobile App",
+          "Technician Mobile App",
+          "Online Booking module",
+          "Text reminders & Loyalty program"
+        ]
+      }
+    },
+    "footnote": "Both plans are month-to-month with no contract and free onboarding. Hardware is quoted separately based on what your salon already has.",
+    "faq": {
+      "eyebrow": "Pricing FAQ",
+      "h2": "Good to Know",
+      "items": [
+        { "q": "Is there a setup fee?", "a": "Setup, data migration and onboarding are free. Hardware is quoted separately based on what your salon already has." },
+        { "q": "Is there a contract?", "a": "No — both plans are month-to-month. Cancel anytime." },
+        { "q": "Does the price change with more technicians?", "a": "No. Technicians and tickets are unlimited. Pricing is per plan, per location — not by team size." }
+      ]
+    }
+  },
+  "about": {
+    "meta": { "title": "About D3 Salon Solution — Raleigh, NC", "description": "D3 builds salons and the software to run them. Based in Raleigh, NC, serving nail salons across the US. Book a free demo." },
+    "kicker": "About",
+    "h1": "We Build Salons. Then We Built the Software to Run Them.",
+    "lead": "All salon solutions in one place — from Raleigh, North Carolina to salons across the US.",
+    "storyEyebrow": "Our Story",
+    "storyH2": "Software designed on the salon floor, not in a boardroom",
+    "storyP1": "D3 started by building salons themselves — custom furniture, pedicure chairs, full build-outs. Years of working inside real nail salons showed us exactly where the day gets stuck: the front-desk line at 2 PM, the payroll spreadsheet on Sunday night, the no-show that left a chair empty.",
+    "storyP2": "So we built the software we wished every salon we furnished already had. Every feature in D3 — turn tracking, self check-in, W2/1099 payroll — exists because a working salon needed it.",
+    "hqNote": "Headquarters: Raleigh, North Carolina — visit our showroom or meet us at the next nail industry show.",
+    "stats": [
+      { "value": "[X]+", "label": "salons running on D3" },
+      { "value": "[X]", "label": "years serving the nail industry" },
+      { "value": "[X]", "label": "states with D3 salons" }
+    ],
+    "installsEyebrow": "Real Salons, Real Installs",
+    "installsH2": "The Salons We Work With",
+    "cta": { "h2": "Talk to people who know salons", "p": "Our team has stood at the front desk. Let's walk through yours." }
+  },
+  "contact": {
+    "meta": { "title": "Book a Free Demo — D3 Salon Solution", "description": "Book a free 20-minute demo of D3 nail salon software, or call (919) 655-3989. We walk through your salon's exact workflow." },
+    "kicker": "Contact",
+    "h1": "Book a Free Demo",
+    "lead": "See D3 running your salon's exact workflow — check-in, booking, checkout and payroll. 20 minutes, no pressure, no contract.",
+    "infoHeading": "Prefer to talk now?",
+    "callLabel": "Call our team",
+    "emailLabel": "Email us",
+    "hoursLabel": "Hours",
+    "locationLabel": "Headquarters"
+  },
+  "blog": {
+    "meta": { "title": "The Salon Owner's Playbook — D3 Blog", "description": "Practical guides on nail salon payroll, no-shows, check-in kiosks and choosing a POS — from a team that builds salons for a living." },
+    "kicker": "Blog",
+    "h1": "The Salon Owner's Playbook",
+    "lead": "Practical guides on payroll, no-shows, check-in and choosing the right tools — from a team that builds salons for a living.",
+    "readTimeSuffix": "min read",
+    "backToBlog": "Back to all posts",
+    "relatedHeading": "Keep reading",
+    "byAuthor": "By",
+    "breadcrumbBlog": "Blog"
+  },
+  "legal": {
+    "privacy": {
+      "meta": { "title": "Privacy Policy — D3 Salon Solution", "description": "How D3 Salon Solution collects, uses and protects your information." },
+      "h1": "Privacy Policy",
+      "updated": "Last updated: June 2026",
+      "placeholder": "This is a placeholder Privacy Policy. Final legal copy is pending review before launch (spec §8)."
+    },
+    "terms": {
+      "meta": { "title": "Terms of Service — D3 Salon Solution", "description": "The terms that govern your use of the D3 Salon Solution website and services." },
+      "h1": "Terms of Service",
+      "updated": "Last updated: June 2026",
+      "placeholder": "These are placeholder Terms of Service. Final legal copy is pending review before launch (spec §8)."
+    }
+  },
+  "footer": {
+    "brandBlurb": "All salon solutions in one place — the POS and management platform built for nail & beauty salons across the US.",
+    "product": "Product",
+    "company": "Company",
+    "moreFromD3": "More from D3",
+    "salonFurniture": "Salon Furniture",
+    "pedicureChairs": "Pedicure Chairs",
+    "marketingServices": "Marketing Services",
+    "photoVideo": "Photo & Video",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "All salon solutions in one place.",
+    "locationLine": "Raleigh, NC"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "features": "Features"
+  }
+}
