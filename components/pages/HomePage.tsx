@@ -59,7 +59,7 @@ export function HomePage({ locale }: { locale: Locale }) {
                 src={images.heroDashboard.src}
                 width={images.heroDashboard.w}
                 height={images.heroDashboard.h}
-                alt="D3 Salon POS software on desktop, tablet and phone"
+                alt="D3 Salon POS register screen with technician list, live ticket and turn tracking"
                 priority
                 sizes="(max-width: 980px) 90vw, 520px"
               />

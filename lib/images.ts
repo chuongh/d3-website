@@ -9,7 +9,7 @@
 const BP = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export const images = {
-  heroDashboard: { src: `${BP}/images/hero-pos-dashboard.webp`, w: 2341, h: 1487 },
+  heroDashboard: { src: `${BP}/images/hero-register-ui.webp`, w: 2555, h: 1286 },
   onlineBooking: { src: `${BP}/images/online-booking.webp`, w: 810, h: 810 },
   payrollSetup: { src: `${BP}/images/payroll-setup.webp`, w: 810, h: 810 },
   checkinKiosk: { src: `${BP}/images/checkin-kiosk.webp`, w: 4286, h: 696 },
